@@ -1,0 +1,262 @@
+{
+  "luis_schema_version": "3.1.0",
+  "versionId": "0.1",
+  "name": "客户邮件标题分析",
+  "desc": "",
+  "culture": "zh-cn",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "家电报修"
+    }
+  ],
+  "entities": [
+    {
+      "name": "故障现象",
+      "roles": []
+    },
+    {
+      "name": "电器大类",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [
+    {
+      "name": "电器类别",
+      "mode": false,
+      "words": "电视机,电冰箱,微波炉,空调,洗衣机,电脑,热水器,冰箱,电风扇,电磁炉",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "微波炉定时不起作用了",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 3,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "微波炉电源线破了",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 3,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "微波炉门关不拢",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "我买的三星电视开不了机",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我今天刚买的电视机，屏幕不亮",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 6,
+          "endPos": 8
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 10,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "昨天买的微波炉无法定时",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 4,
+          "endPos": 6
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "电冰箱不制冷",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "电冰箱背后一直在滴水",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 3,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "电冰箱门关不拢",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "电冰箱门坏了",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "电视机屏幕有裂缝",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 3,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "电视机没有遥控器",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 3,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "电视机看到一半会突然黑屏",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "故障现象",
+          "startPos": 10,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "空调有点问题",
+      "intent": "家电报修",
+      "entities": [
+        {
+          "entity": "电器大类",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    }
+  ],
+  "settings": []
+}
